@@ -1,1 +1,23 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
 
+section#fag {
+  width: 1090px;
+  margin: 0 auto;
+}
+section#fag > .faq {
+  margin: 5rem 0;
+}
+section#fag > .faq h1 {
+  line-height: 2rem;
+}
+section#fag > .faq p {
+  line-height: 1.6rem;
+}
+section#fag > .faq ol li {
+  margin-top: 2rem;
+}
+section#fag > .faq ol li > ol {
+  list-style-type: lower-latin;
+}

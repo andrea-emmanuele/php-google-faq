@@ -1,0 +1,26 @@
+section#fag {
+  width: 1090px;
+  margin: 0 auto;
+
+  > .faq {
+    margin: $faqSpacing;
+
+    h1 {
+      line-height: $headingLineHeight;
+    }
+
+    p {
+      line-height: $pLineHeight;
+    }
+
+    ol {
+      li {
+        margin-top: $listSpacing;
+
+        > ol {
+          list-style-type: lower-latin;
+        }
+      }
+    }
+  }
+}
